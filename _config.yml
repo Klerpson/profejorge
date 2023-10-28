@@ -1,0 +1,40 @@
+title: Yo soy El Profe Jorge. ¡Y aprender es gratis!
+description: > # this means to ignore newlines until "baseurl:"
+  Yo soy el Profe Jorge, un influencer colombiano apasionado de la tecnología. Disfruto enseñando todos mis conocimientos mediante • Noticias • Reviews • Unpackage
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://elprofejorge.com" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Profe Jorge # add your name
+author-img: profe-jorge.jpg # add your photo
+about-author: Soy un apasionado de la tecnogología y de impartir conocimiento GRATIS. # add description
+social-twitter: elprofe_jorge # add your Twitter handle
+social-facebook: elprofejorgeYT # add your Facebook handle
+social-github: # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: elprofejorgerevies@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 7
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+#sass
+sass:
+  sass_dir:           _sass
+  style:              compressed
