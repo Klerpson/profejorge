@@ -1368,7 +1368,7 @@ a.newer-posts:hover {
   background-color: #FFE400;
   padding: 8px 16px;
   border-radius: 12px;
-  box-shadow: 0 0 5px #00000072;
+  box-shadow: 0 2px 8px rgba(22, 22, 22, .3);
   text-decoration: none;
   color: #020202;
 }
