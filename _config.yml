@@ -2,7 +2,7 @@ title: Yo soy El Profe Jorge. ¡Y aprender es gratis!
 description: > # this means to ignore newlines until "baseurl:"
   Yo soy el Profe Jorge, un influencer colombiano apasionado de la tecnología. Disfruto enseñando todos mis conocimientos mediante • Noticias • Reviews • Unpackage
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/elprofejorge" # the subpath of your site, e.g. /blog
 url: "https://elprofejorge.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
